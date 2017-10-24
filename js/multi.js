@@ -2,13 +2,13 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
 
 
   var videoElement = document.querySelector('video');
-  var audioSelect = document.querySelector('select#audioSource');
+  // var audioSelect = document.querySelector('select#audioSource');
   var videoSelect = document.querySelector('select#videoSource');
 
   navigator.mediaDevices.enumerateDevices()
     .then(gotDevices).then(getStream).catch(handleError);
 
-  audioSelect.onchange = getStream;
+  // audioSelect.onchange = getStream;
   videoSelect.onchange = getStream;
 
   function gotDevices(deviceInfos) {
@@ -16,11 +16,7 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
       var deviceInfo = deviceInfos[i];
       var option = document.createElement('option');
       option.value = deviceInfo.deviceId;
-      if (deviceInfo.kind === 'audioinput') {
-        option.text = deviceInfo.label ||
-          'microphone ' + (audioSelect.length + 1);
-        audioSelect.appendChild(option);
-      } else if (deviceInfo.kind === 'videoinput') {
+      if (deviceInfo.kind === 'videoinput') {
         option.text = deviceInfo.label || 'camera ' +
           (videoSelect.length + 1);
         videoSelect.appendChild(option);
@@ -38,11 +34,11 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
     }
 
     var constraints = {
-      audio: {
-        optional: [{
-          sourceId: audioSelect.value
-        }]
-      },
+      // audio: {
+      //   optional: [{
+      //     sourceId: audioSelect.value
+      //   }]
+      // },
       video: {
         optional: [{
           sourceId: videoSelect.value
@@ -93,8 +89,10 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
     }
   }
 
-
+  $scope.location = null;
+  $scope.label = "Found Location:";
   $scope.sendData = function(img){
+    $scope.location = null;
     var apiKey = "AIzaSyAmW6_z69y7w-502YJ7usjAHg85gP4Hjuc";
     var url = "https://vision.googleapis.com/v1/images:annotate?key=" + apiKey;
     if(img){
@@ -120,25 +118,43 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
       ]};
 
     }
-
+    $rootScope.isLoading = true;
     $http({
         url: url,
         method: "POST",
         data: data
     })
     .then(function(response) {
-      alert("loading over");
+      $rootScope.isLoading = false;
       console.log('response', response);
-      var label = response.data.responses[0].landmarkAnnotations[0].description;
-      $scope.location = label;
-      alert("location: "+ label);
+      var loc = response.data.responses[0].landmarkAnnotations[0].description;
+      $scope.location = loc;
+      alert("location: "+ loc);
             // success
     },
     function(error) { // optional
             // failed
+      alert("Sorry, There was an error. Please try again!!");
+      $rootScope.isLoading = false;
       console.log('error', error);
     })
   };
 
+  $scope.findActivities = function(location){
+    var url = "https://apim.expedia.com/x/activities/search?location="+location+"&startDate=2017-11-24&endDate=2017-11-30"
+    $http({
+        headers:{
+          key: "4f8ce657-ee06-4527-a8d8-4b207f8f0d62"
+        },
+        url: url,
+        method: "GET"
+    })
+    .then(function(response) {
+      console.log(response);
+    },function(err){
+
+    })
+  }
+  $scope.location = "Taj Mahal";
 
 });

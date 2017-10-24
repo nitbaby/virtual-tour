@@ -7,6 +7,10 @@ app.config(function($routeProvider) {
     //     controller : "HomeController"
     // })
     .when("/", {
+        templateUrl : "partials/multi.htm",
+        controller : "MultiController"
+    })
+    .when("/camera", {
         templateUrl : "partials/camera.htm",
         controller : "CameraController"
     })
@@ -22,18 +26,9 @@ app.config(function($routeProvider) {
         templateUrl : "partials/mobile.htm",
         controller : "MobileController"
     })
-    .when("/multi", {
-        templateUrl : "partials/multi.htm",
-        controller : "MultiController"
-    })
 
 });
 
 app.run(function($rootScope) {
-  $rootScope.gm={
-
-  },
-  $rootScope.logLatLng = function(e) {
-         console.log('loc', e.latLng);
-       }
+  $rootScope.isLoading = false;
 });

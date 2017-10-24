@@ -1,10 +1,10 @@
 <div id="container">
 
-  <h1><a href="https://simpl.info/index.html" title="simpl.info home page">simpl.info</a> MediaStreamTrack.getSources</h1>
+  <h1>Scan a destination to get tour details</h1>
 
-  <div class="select">
+  <!-- <div class="select">
     <label for="audioSource">Audio source: </label><select id="audioSource"></select>
-  </div>
+  </div> -->
 
   <div class="select">
     <label for="videoSource">Video source: </label><select id="videoSource"></select>
@@ -14,9 +14,27 @@
 
   <button type="button" name="button" ng-click="snapClick()">Take Snap</button>
 
-  <p>This demo requires Chrome 30 or later.</p>
+  <!-- <p>This demo requires Chrome 30 or later.</p> -->
 
 
   <canvas></canvas>
+
+  <div ng-if="location" class="">
+    <div class="location" >
+      <span>{{label}}
+      </span>
+      <span>{{location}}</span>
+    </div>
+
+    <button type="button" name="button" ng-click="findActivities(location)">Find Activites Near {{location}}</button>
+
+    <div class="activities-cnt">
+      <li ng-repeat="activity in activityList">
+        {{activityList.title}}
+      </li>
+    </div>
+
+  </div>
+
 
 </div>
