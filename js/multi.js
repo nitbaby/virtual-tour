@@ -68,10 +68,10 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
 
   function takeSnapshot(){
     // Here we're using a trick that involves a hidden canvas element.
-    var video = video = document.querySelector("#sample_video")
+    var video = document.querySelector("#sample_video")
     var hidden_canvas = document.querySelector('canvas'),
         context = hidden_canvas.getContext('2d');
-
+        $('#photo-cnt').css('display', 'inline-block');
     var width = video.videoWidth,
         height = video.videoHeight;
 
@@ -90,7 +90,7 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
   }
 
   $rootScope.location = null;
-  $scope.label = "Found Location:";
+  $scope.label = "Last found Location:";
   $scope.sendData = function(img){
     $scope.rootScope = null;
     var apiKey = "AIzaSyAmW6_z69y7w-502YJ7usjAHg85gP4Hjuc";
@@ -161,6 +161,6 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
     console.log(param);
     $location.path("/activities/"+param);
   }
-  $rootScope.location = "Taj Mahal";
+  // $rootScope.location = "Taj Mahal";
 
 });

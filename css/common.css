@@ -9,14 +9,19 @@ body{
   max-width: 768px;
   margin: 0 auto;
 }*/
-
+html, body{
+  height: 100%;
+}
 .truncate {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+#photo-cnt{
+  display: none;
+  margin-top: 25px;
+}
 form { margin-top: 15px; }
 form > input { margin-right: 15px; }
 #results { float:right; margin:20px; padding:20px; border:1px solid; background:#ccc; }
@@ -51,3 +56,11 @@ form > input { margin-right: 15px; }
 .activities-container li{
   list-style: none;
 }
+.activities-container img{
+  width: 100%;
+  margin-bottom: 4px;
+}
+.activities-container .activity-bx{
+  margin-bottom: 25px;
+}
+margin-bottom: 20px;

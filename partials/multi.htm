@@ -17,7 +17,7 @@
   <!-- <p>This demo requires Chrome 30 or later.</p> -->
 
 
-  <canvas></canvas>
+  <canvas id="photo-cnt"></canvas>
 
   <div ng-if="location" class="">
     <div class="location" >
@@ -26,7 +26,7 @@
       <span>{{location}}</span>
     </div>
 
-    <button type="button" name="button" ng-click="findActivities(location)">Find Activites Near {{location}}</button>
+    <button type="button" name="button" ng-click="findActivities(location)">Find activites near {{location}}</button>
 
     <div class="activities-cnt">
       <li ng-repeat="activity in activityList">

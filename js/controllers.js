@@ -83,11 +83,13 @@ app.controller('ActivityController', function($scope, $routeParams, $http, $time
 
   var location = $routeParams.location;
   $scope.activities = null;
-
+  if(!$rootScope.location){
+    $scope.location = location;
+  }
   $scope.findActivities = function(location){
     var filename = location+'.json';
     console.log(filename);
-    var url = "../stubs/"+filename;
+    var url = "./stubs/"+filename;
     $http({
         headers:{
           key: "4f8ce657-ee06-4527-a8d8-4b207f8f0d62"
