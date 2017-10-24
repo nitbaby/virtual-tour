@@ -7,6 +7,10 @@ app.config(function($routeProvider) {
     //     controller : "HomeController"
     // })
     .when("/", {
+        templateUrl : "partials/camera.htm",
+        controller : "CameraController"
+    })
+    .when("/home", {
         templateUrl : "partials/home.htm",
         controller : "HomeController"
     })
@@ -14,9 +18,9 @@ app.config(function($routeProvider) {
         templateUrl : "partials/vision.htm",
         controller : "VisionController"
     })
-    .when("/camera", {
-        templateUrl : "partials/camera.htm",
-        controller : "CameraController"
+    .when("/mobile", {
+        templateUrl : "partials/mobile.htm",
+        controller : "MobileController"
     })
 
 });

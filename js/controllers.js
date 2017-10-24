@@ -10,66 +10,10 @@ app.controller('HomeController', function($scope, $http, $timeout,  $location, $
 
 app.controller('CameraController', function($scope, $http, $timeout,  $location, $rootScope, $interval, WebService) {
 
-  // var data = {
-  //   "requests": [
-  //     {
-  //       "image": {
-  //         "source": {
-  //           "imageUri": "https://cloud.google.com/vision/images/rushmore.jpg"
-  //         }
-  //       },
-  //       "features": [
-  //         {
-  //           "type": "LANDMARK_DETECTION",
-  //           "maxResults": 1
-  //         },
-  //         {
-  //           "type": "WEB_DETECTION",
-  //           "maxResults": 2
-  //         }
-  //       ]
-  //     }
-  //   ]
-  // };
-
-
-
   var apiKey = "AIzaSyAmW6_z69y7w-502YJ7usjAHg85gP4Hjuc";
   var url = "https://vision.googleapis.com/v1/images:annotate?key=" + apiKey;
   //  data:image/png;base64,
-  var sampleBase64 = ""
 
-
-  // var data = {
-  //   "requests":[
-  //     {
-  //       "image":{
-  //         "content":sampleBase64
-  //       },
-  //       "features":[
-  //         {
-  //           "type":"FACE_DETECTION",
-  //           "maxResults":10
-  //         }
-  //       ]
-  //     }
-  //   ]
-  // };
-  var data={"requests":[
-    {"image":{"content":sampleBase64},
-    "features":[{"type":"TYPE_UNSPECIFIED","maxResults":50},
-    {"type":"LANDMARK_DETECTION","maxResults":50},
-    {"type":"FACE_DETECTION","maxResults":50},
-    {"type":"LOGO_DETECTION","maxResults":50},
-    {"type":"LABEL_DETECTION","maxResults":50},
-    {"type":"TEXT_DETECTION","maxResults":50},
-    {"type":"DOCUMENT_TEXT_DETECTION","maxResults":50},
-    {"type":"SAFE_SEARCH_DETECTION","maxResults":50},
-    {"type":"IMAGE_PROPERTIES","maxResults":50},
-    {"type":"CROP_HINTS","maxResults":50},
-    {"type":"WEB_DETECTION","maxResults":50}],
-    "imageContext":{"cropHintsParams":{"aspectRatios":[0.8,1,1.2]}}}
-  ]};
 
   $scope.sendData = function(img){
     if(img){

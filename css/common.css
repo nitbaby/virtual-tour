@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 *{
   font-family: 'Titillium Web', sans-serif !important;
 }
@@ -8,8 +8,7 @@ body{
   color: white!important;
   max-width: 768px;
   margin: 0 auto;
-  /*padding: 0 5px;*/
-}
+}*/
 
 .truncate {
   width: 100%;
