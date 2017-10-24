@@ -47,3 +47,7 @@ form > input { margin-right: 15px; }
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.activities-container li{
+  list-style: none;
+}

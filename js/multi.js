@@ -89,10 +89,10 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
     }
   }
 
-  $scope.location = null;
+  $rootScope.location = null;
   $scope.label = "Found Location:";
   $scope.sendData = function(img){
-    $scope.location = null;
+    $scope.rootScope = null;
     var apiKey = "AIzaSyAmW6_z69y7w-502YJ7usjAHg85gP4Hjuc";
     var url = "https://vision.googleapis.com/v1/images:annotate?key=" + apiKey;
     if(img){
@@ -128,8 +128,11 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
       $rootScope.isLoading = false;
       console.log('response', response);
       var loc = response.data.responses[0].landmarkAnnotations[0].description;
-      $scope.location = loc;
-      alert("location: "+ loc);
+      if(!loc){
+        alert("We couldnot identify a destination. Please try again");
+      }
+      $rootScope.location = loc;
+      // alert("location: "+ loc);
             // success
     },
     function(error) { // optional
@@ -141,20 +144,23 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
   };
 
   $scope.findActivities = function(location){
-    var url = "https://apim.expedia.com/x/activities/search?location="+location+"&startDate=2017-11-24&endDate=2017-11-30"
-    $http({
-        headers:{
-          key: "4f8ce657-ee06-4527-a8d8-4b207f8f0d62"
-        },
-        url: url,
-        method: "GET"
-    })
-    .then(function(response) {
-      console.log(response);
-    },function(err){
-
-    })
+    // var url = "https://apim.expedia.com/x/activities/search?location="+location+"&startDate=2017-11-24&endDate=2017-11-30"
+    // $http({
+    //     headers:{
+    //       key: "4f8ce657-ee06-4527-a8d8-4b207f8f0d62"
+    //     },
+    //     url: url,
+    //     method: "GET"
+    // })
+    // .then(function(response) {
+    //   console.log(response);
+    // },function(err){
+    //
+    // })
+    var param = location.split(' ').join('').toLowerCase();
+    console.log(param);
+    $location.path("/activities/"+param);
   }
-  $scope.location = "Taj Mahal";
+  $rootScope.location = "Taj Mahal";
 
 });

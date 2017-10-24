@@ -1,9 +1,5 @@
 app.controller('HomeController', function($scope, $http, $timeout,  $location, $rootScope, $interval, WebService) {
 
-  $scope.wayPoints = [
-      {location: {lat:44.32384807250689, lng: -78.079833984375}, stopover: true},
-      {location: {lat:44.55916341529184, lng: -76.17919921875}, stopover: true},
-    ];
 
 });
 
@@ -80,4 +76,35 @@ app.controller('CameraController', function($scope, $http, $timeout,  $location,
 
 
   }
+});
+
+
+app.controller('ActivityController', function($scope, $routeParams, $http, $timeout,  $location, $rootScope, $interval, WebService) {
+
+  var location = $routeParams.location;
+  $scope.activities = null;
+
+  $scope.findActivities = function(location){
+    var filename = location+'.json';
+    console.log(filename);
+    var url = "../stubs/"+filename;
+    $http({
+        headers:{
+          key: "4f8ce657-ee06-4527-a8d8-4b207f8f0d62"
+        },
+        url: url,
+        method: "GET"
+    })
+    .then(function(response) {
+      console.log(response);
+      $scope.activities = response.data.activities;
+      $scope.currency = response.data.currencyCode;
+
+    },function(err){
+      alert("Sorry!! We are not able to fetch any activities for the destination");
+    })
+  }
+
+  $scope.findActivities(location);
+
 });

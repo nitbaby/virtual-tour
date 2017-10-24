@@ -1,0 +1,604 @@
+{
+  "activities": [
+    {
+      "id": "213400",
+      "title": "Private Full-Day Agra Tour with Lunch",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213400_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213400_l.jpeg?v=104782",
+      "fromPrice": "$110",
+      "fromPriceValue": "109.84",
+      "fromPriceLabel": "per adult",
+      "duration": "11h",
+      "durationInMillis": 39600000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "private-full-day-agra-tour-with-lunch.a213400.activity-details",
+      "categories": [
+        "Attractions",
+        "Day Trips & Excursions",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "27.1766701,78.0080745",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 90,
+      "approvedReviewCount": 7,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "213456",
+      "title": "Private 3-Day Golden Triangle Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213456_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213456_l.jpeg?v=104782",
+      "fromPrice": "$305",
+      "fromPriceValue": "304.45",
+      "fromPriceLabel": "per adult",
+      "duration": "3d",
+      "durationInMillis": 259200000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "private-3-day-golden-triangle-tour.a213456.activity-details",
+      "categories": [
+        "Attractions",
+        "Multi-Day & Extended Tours",
+        "Private Tours",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "27.7873427,76.9464633",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 93,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.5561624,77.0999578",
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "213372",
+      "title": "Old & New Delhi Private Full-Day Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213372_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213372_l.jpeg?v=104782",
+      "fromPrice": "$55",
+      "fromPriceValue": "54.06",
+      "fromPriceLabel": "per adult",
+      "duration": "8h",
+      "durationInMillis": 28800000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "old-new-delhi-private-full-day-tour.a213372.activity-details",
+      "categories": [
+        "Private Tours",
+        "Tours & Sightseeing",
+        "Attractions"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 93,
+      "approvedReviewCount": 5,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "213428",
+      "title": "Sound & Light Show at the Red Fort with Dinner",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213428_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213428_l.jpeg?v=104782",
+      "fromPrice": "$30",
+      "fromPriceValue": "29.12",
+      "fromPriceLabel": "per adult",
+      "duration": "3h",
+      "durationInMillis": 10800000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "sound-light-show-at-the-red-fort-with-dinner.a213428.activity-details",
+      "categories": [
+        "Nightlife",
+        "Show & Sport Tickets",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "28.6561929,77.2409817",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 27,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "172062",
+      "title": "Small-Group Gandhi's Delhi Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/172062_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/172062_l.jpeg?v=104782",
+      "fromPrice": "$61",
+      "fromPriceValue": "61.00",
+      "fromPriceLabel": "per traveler",
+      "duration": "4h 30m",
+      "durationInMillis": 16200000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "small-group-gandhis-delhi-tour.a172062.activity-details",
+      "categories": [
+        "Tours & Sightseeing",
+        "Walking & Bike Tours"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Urban Adventures ",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.64495,77.193106"
+      ]
+    },
+    {
+      "id": "172060",
+      "title": "Small-Group Culture Vulture Delhi Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/172060_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/172060_l.jpeg?v=104782",
+      "fromPrice": "$53",
+      "fromPriceValue": "53.00",
+      "fromPriceLabel": "per traveler",
+      "duration": "3h 30m",
+      "durationInMillis": 12600000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "small-group-culture-vulture-delhi-tour.a172060.activity-details",
+      "categories": [
+        "Tours & Sightseeing",
+        "Walking & Bike Tours"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Urban Adventures ",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.6426141,77.1795902"
+      ]
+    },
+    {
+      "id": "213358",
+      "title": "Old Delhi Private Half-Day Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213358_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213358_l.jpeg?v=104782",
+      "fromPrice": "$29",
+      "fromPriceValue": "28.38",
+      "fromPriceLabel": "per adult",
+      "duration": "4h",
+      "durationInMillis": 14400000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "old-delhi-private-half-day-tour.a213358.activity-details",
+      "categories": [
+        "Tours & Sightseeing",
+        "Private Tours"
+      ],
+      "latLng": "28.6545622,77.2308955",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 60,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "213414",
+      "title": "Private Full-Day Agra & Fatehpur Sikri Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213414_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213414_l.jpeg?v=104782",
+      "fromPrice": "$132",
+      "fromPriceValue": "131.46",
+      "fromPriceLabel": "per adult",
+      "duration": "13h",
+      "durationInMillis": 46800000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "private-full-day-agra-fatehpur-sikri-tour.a213414.activity-details",
+      "categories": [
+        "Day Trips & Excursions",
+        "Tours & Sightseeing",
+        "Attractions",
+        "Private Tours"
+      ],
+      "latLng": "27.1766701,78.0080745",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 67,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "221827",
+      "title": "Small-Group Delhi Food Walking Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/221827_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/221827_l.jpeg?v=104782",
+      "fromPrice": "$62",
+      "fromPriceValue": "62.00",
+      "fromPriceLabel": "per traveler",
+      "duration": "3h",
+      "durationInMillis": 10800000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "small-group-delhi-food-walking-tour.a221827.activity-details",
+      "categories": [
+        "Food & Drink",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Urban Adventures ",
+      "recommendationScore": 84,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.695366,77.214938"
+      ]
+    },
+    {
+      "id": "213386",
+      "title": "Private City Center Walking Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213386_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213386_l.jpeg?v=104782",
+      "fromPrice": "$43",
+      "fromPriceValue": "42.67",
+      "fromPriceLabel": "per adult",
+      "duration": "4h",
+      "durationInMillis": 14400000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "private-city-center-walking-tour.a213386.activity-details",
+      "categories": [
+        "Private Tours",
+        "Walking & Bike Tours",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "456103",
+      "title": "Private North Indian Culinary Experience with an Accomplished Cook",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/456103_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/456103_l.jpeg?v=104782",
+      "fromPrice": "$26",
+      "fromPriceValue": "26.00",
+      "fromPriceLabel": "per adult",
+      "duration": "2h+",
+      "durationInMillis": 7200000,
+      "fromPriceTicketType": "adult",
+      "fromPriceTicketCode": "Adult",
+      "freeCancellation": true,
+      "formattedTitle": "private-north-indian-culinary-experience-with-an-accomplished-cook.a456103.activity-details",
+      "categories": [
+        "Food & Drink"
+      ],
+      "latLng": "28.4816551,77.1872857",
+      "redemptionType": "Voucherless",
+      "supplierName": "Traveling Spoon",
+      "recommendationScore": 0,
+      "approvedReviewCount": 1,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.4816551,77.1872857"
+      ]
+    },
+    {
+      "id": "417796",
+      "title": "Understanding New Delhi Street Life Walking Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/417796_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/417796_l.jpeg?v=104782",
+      "fromPrice": "$21",
+      "fromPriceValue": "21.00",
+      "fromPriceLabel": "per traveler",
+      "duration": "2h",
+      "durationInMillis": 7200000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "understanding-new-delhi-street-life-walking-tour.a417796.activity-details",
+      "categories": [
+        "Tours & Sightseeing"
+      ],
+      "latLng": "28.6610779,77.2345881",
+      "redemptionType": "Voucherless",
+      "supplierName": "visit.org",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.6388185,77.2185316"
+      ]
+    },
+    {
+      "id": "172064",
+      "title": "Small-Group Home-Cooked Delhi Tour",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/172064_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/172064_l.jpeg?v=104782",
+      "fromPrice": "$78",
+      "fromPriceValue": "78.00",
+      "fromPriceLabel": "per traveler",
+      "duration": "4h 30m",
+      "durationInMillis": 16200000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "small-group-home-cooked-delhi-tour.a172064.activity-details",
+      "categories": [
+        "Food & Drink",
+        "Tours & Sightseeing"
+      ],
+      "latLng": "28.635308,77.22496",
+      "redemptionType": "Voucherless",
+      "supplierName": "Urban Adventures ",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": true,
+      "redemptionLocations": [
+        "28.64495,77.193106"
+      ]
+    },
+    {
+      "id": "217502",
+      "title": "Private Standard Car: Delhi Airport (DEL)",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/217502_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/217502_l.jpeg?v=104782",
+      "fromPrice": "$41",
+      "fromPriceValue": "40.94",
+      "fromPriceLabel": "per vehicle",
+      "duration": "1h+",
+      "durationInMillis": 3600000,
+      "fromPriceTicketType": "vehicle",
+      "fromPriceTicketCode": "Vehicle",
+      "freeCancellation": true,
+      "formattedTitle": "private-standard-car-delhi-airport-del.a217502.activity-details",
+      "categories": [
+        "Private Transfers"
+      ],
+      "latLng": "28.5561624,77.0999578",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 77,
+      "approvedReviewCount": 6,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.5561624,77.0999578",
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "217530",
+      "title": "Private Minivan: Delhi Airport (DEL)",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/217530_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/217530_l.jpeg?v=104782",
+      "fromPrice": "$47",
+      "fromPriceValue": "46.59",
+      "fromPriceLabel": "per vehicle",
+      "duration": "1h+",
+      "durationInMillis": 3600000,
+      "fromPriceTicketType": "vehicle",
+      "fromPriceTicketCode": "Vehicle",
+      "freeCancellation": true,
+      "formattedTitle": "private-minivan-delhi-airport-del.a217530.activity-details",
+      "categories": [
+        "Private Transfers"
+      ],
+      "latLng": "28.5561624,77.0999578",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 70,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.5561624,77.0999578",
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "217516",
+      "title": "Private Minibus: Delhi Airport (DEL)",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/217516_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/217516_l.jpeg?v=104782",
+      "fromPrice": "$81",
+      "fromPriceValue": "80.47",
+      "fromPriceLabel": "per vehicle",
+      "duration": "1h+",
+      "durationInMillis": 3600000,
+      "fromPriceTicketType": "vehicle",
+      "fromPriceTicketCode": "Vehicle",
+      "freeCancellation": true,
+      "formattedTitle": "private-minibus-delhi-airport-del.a217516.activity-details",
+      "categories": [
+        "Private Transfers"
+      ],
+      "latLng": "28.5561624,77.0999578",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 84,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.5561624,77.0999578",
+        "28.635308,77.22496"
+      ]
+    },
+    {
+      "id": "213442",
+      "title": "Live Show at the Kingdom of Dreams",
+      "imageUrl": "//a.travel-assets.com/lxweb/media-vault/213442_m.jpeg?v=104782",
+      "largeImageURL": "//a.travel-assets.com/lxweb/media-vault/213442_l.jpeg?v=104782",
+      "fromPrice": "$77",
+      "fromPriceValue": "76.48",
+      "fromPriceLabel": "per traveler",
+      "duration": "5h",
+      "durationInMillis": 18000000,
+      "fromPriceTicketType": "traveler",
+      "fromPriceTicketCode": "Traveler",
+      "freeCancellation": true,
+      "formattedTitle": "live-show-at-the-kingdom-of-dreams.a213442.activity-details",
+      "categories": [
+        "Nightlife",
+        "Spa",
+        "Show & Sport Tickets"
+      ],
+      "latLng": "28.4680028,77.0691562",
+      "redemptionType": "Voucherless",
+      "supplierName": "Le Passage to India",
+      "recommendationScore": 0,
+      "shortDescription": null,
+      "promoPricingAvailable": false,
+      "redemptionLocations": [
+        "28.635308,77.22496"
+      ]
+    }
+  ],
+  "total": 17,
+  "isLocationRedirected": true,
+  "distanceUnit": "miles",
+  "regionId": "180000",
+  "destination": "Delhi",
+  "fullName": "Delhi (and vicinity), India",
+  "startDate": "2017-11-23",
+  "endDate": "2017-12-07",
+  "dateAdjusted": true,
+  "filterCategories": {
+    "Private Transfers": {
+      "count": 3,
+      "displayValue": "Private Transfers",
+      "categoryType": "Transportation",
+      "categoryTypeDisplayValue": "Transportation",
+      "categoryRank": 5,
+      "contextualDisplayValue": "3 ways to get to your Hotel in Delhi",
+      "contextualSingularDisplayValue": "1 way to get to your Hotel in Delhi"
+    },
+    "Attractions": {
+      "count": 4,
+      "displayValue": "Attractions",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "4 attractions in Delhi",
+      "contextualSingularDisplayValue": "1 attraction in Delhi"
+    },
+    "Day Trips & Excursions": {
+      "count": 2,
+      "displayValue": "Day Trips & Excursions",
+      "categoryType": "Tours",
+      "categoryTypeDisplayValue": "Tours",
+      "categoryRank": 2,
+      "contextualDisplayValue": "2 day trips & excursions in Delhi",
+      "contextualSingularDisplayValue": "1 day trip & excursion in Delhi"
+    },
+    "Food & Drink": {
+      "count": 3,
+      "displayValue": "Food & Drink",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "3 food & drink activities in Delhi",
+      "contextualSingularDisplayValue": "1 food & drink activity in Delhi"
+    },
+    "Multi-Day & Extended Tours": {
+      "count": 1,
+      "displayValue": "Multi-Day & Extended Tours",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "1 multi-day or extended tour in Delhi",
+      "contextualSingularDisplayValue": "1 multi-day or extended tour in Delhi"
+    },
+    "Nightlife": {
+      "count": 2,
+      "displayValue": "Nightlife",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "2 nightlife activities in Delhi",
+      "contextualSingularDisplayValue": "1 nightlife activity in Delhi"
+    },
+    "Private Tours": {
+      "count": 5,
+      "displayValue": "Private Tours",
+      "categoryType": "Tours",
+      "categoryTypeDisplayValue": "Tours",
+      "categoryRank": 2,
+      "contextualDisplayValue": "5 private tours in Delhi",
+      "contextualSingularDisplayValue": "1 private tour in Delhi"
+    },
+    "Show & Sport Tickets": {
+      "count": 2,
+      "displayValue": "Show & Sport Tickets",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "2 shows & sports activities in Delhi",
+      "contextualSingularDisplayValue": "1 show or sport activity in Delhi"
+    },
+    "Spa": {
+      "count": 1,
+      "displayValue": "Spa",
+      "categoryType": "Activities",
+      "categoryTypeDisplayValue": "Activities",
+      "categoryRank": 3,
+      "contextualDisplayValue": "1 spa in Delhi",
+      "contextualSingularDisplayValue": "1 spa in Delhi"
+    },
+    "Tours & Sightseeing": {
+      "count": 12,
+      "displayValue": "Tours & Sightseeing",
+      "categoryType": "Tours",
+      "categoryTypeDisplayValue": "Tours",
+      "categoryRank": 2,
+      "contextualDisplayValue": "12 tours & sightseeing activities in Delhi",
+      "contextualSingularDisplayValue": "1 tour or sightseeing activity in Delhi"
+    },
+    "Walking & Bike Tours": {
+      "count": 3,
+      "displayValue": "Walking & Bike Tours",
+      "categoryType": "Tours",
+      "categoryTypeDisplayValue": "Tours",
+      "categoryRank": 2,
+      "contextualDisplayValue": "3 walking & bike tours in Delhi",
+      "contextualSingularDisplayValue": "1 walking or bike tour in Delhi"
+    }
+  },
+  "currencyCode": "USD",
+  "status": "passed"
+}

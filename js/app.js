@@ -26,9 +26,14 @@ app.config(function($routeProvider) {
         templateUrl : "partials/mobile.htm",
         controller : "MobileController"
     })
+    .when("/activities/:location", {
+        templateUrl : "partials/activities.htm",
+        controller : "ActivityController"
+    })
 
 });
 
 app.run(function($rootScope) {
   $rootScope.isLoading = false;
+  $rootScope.location = null;
 });
