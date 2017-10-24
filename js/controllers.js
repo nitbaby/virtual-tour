@@ -110,3 +110,36 @@ app.controller('ActivityController', function($scope, $routeParams, $http, $time
   $scope.findActivities(location);
 
 });
+
+app.controller('TourController', function($scope, $routeParams, $http, $timeout,  $location, $rootScope, $interval, WebService) {
+
+  var location = $routeParams.location;
+  $scope.activities = null;
+  if(!$rootScope.location){
+    $scope.location = location;
+  }
+
+  var url = "https://content.googleapis.com/youtube/v3/search?q="+$scope.location+" tour 360 video"+"&maxResults=25&part=snippet&key=AIzaSyAmW6_z69y7w-502YJ7usjAHg85gP4Hjuc";
+
+
+  $scope.searchVideos = function(location){
+
+    $http({
+        url: url,
+        method: "GET"
+    })
+    .then(function(response) {
+      console.log(response);
+      $scope.sampleVideoId = response.data.items[0].id.videoId;
+      $scope.videos = response.data.items;
+    },function(err){
+      alert("Sorry!! We are not able to fetch any videos for the destination");
+    })
+  }
+
+  $scope.selectVideo = function (id) {
+    $scope.sampleVideoId = id;
+  }
+
+  $scope.searchVideos($scope.location);
+});
