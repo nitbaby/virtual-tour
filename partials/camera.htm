@@ -1,0 +1,24 @@
+<div id="results">Your captured image will appear here...</div>
+
+<h1>WebcamJS Test Page</h1>
+<h3>Demonstrates simple 320x240 capture &amp; display</h3>
+
+<div id="my_camera"></div>
+
+
+<!-- Configure a few settings and attach camera -->
+
+
+<!-- A button for taking snaps -->
+<form>
+  <input type=button value="Take Snapshot" ng-click="take_snapshot()">
+</form>
+<div class="" ng-if="location">
+  <label> Location :</label>
+  <span>{{location}}</span>
+</div>
+
+<!-- <div class="" ng-click="sendData()">
+  SEND
+</div> -->
+<!-- Code to handle taking the snapshot and displaying it locally -->

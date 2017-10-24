@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+body{
+  background: #171717;
+  color: white!important;
+  max-width: 768px;
+  margin: 0 auto;
+  /*padding: 0 5px;*/
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+form { margin-top: 15px; }
+form > input { margin-right: 15px; }
+#results { float:right; margin:20px; padding:20px; border:1px solid; background:#ccc; }
