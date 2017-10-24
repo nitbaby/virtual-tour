@@ -127,6 +127,7 @@ app.controller('MultiController', function($scope, $http, $timeout,  $location, 
         data: data
     })
     .then(function(response) {
+      alert("loading over");
       console.log('response', response);
       var label = response.data.responses[0].landmarkAnnotations[0].description;
       $scope.location = label;
