@@ -22,6 +22,10 @@ app.config(function($routeProvider) {
         templateUrl : "partials/mobile.htm",
         controller : "MobileController"
     })
+    .when("/multi", {
+        templateUrl : "partials/multi.htm",
+        controller : "MultiController"
+    })
 
 });
 
