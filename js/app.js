@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ["ngRoute","infinite-scroll", "ngMap"]);
+var app = angular.module("myApp", ["ngRoute","infinite-scroll", "youtube-embed"]);
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -29,6 +29,10 @@ app.config(function($routeProvider) {
     .when("/activities/:location", {
         templateUrl : "partials/activities.htm",
         controller : "ActivityController"
+    })
+    .when("/tour/", {
+        templateUrl : "partials/tour.htm",
+        controller : "TourController"
     })
 
 });
