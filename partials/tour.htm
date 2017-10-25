@@ -1,28 +1,10 @@
 <div class="activities-container container-fluid">
   <div class="row">
-    <h1>Videos of {{location}}</h1>
+    <h1>Virtual Tour of {{location}}</h1>
   </div>
   <div class="row">
     <youtube-video video-id="sampleVideoId"></youtube-video>
   </div>
 
-  <div class="row">
-    <li ng-repeat="v in videos" class="col-md-6 col-lg-4" ng-click="selectVideo(v.id.videoId)">
-      <div class="activity-bx">
-        <h4>{{v.snippet.title}}</h4>
-        <img ng-src="{{v.snippet.thumbnails.default.url}}" alt="">
-        <div class="row">
-          <div class="col-xs-12">
-            <label>Published at :</label><span>{{v.snippet.publishedAt}}</span>
-          </div>
-          <div class="col-xs-12">
-            {{v.snippet.description}}
-          </div>
-        </div>
-        <div class="">
-          <button type="button" name="button">Book Activity</button>
-        </div>
-      </div>
-    </li>
-  </div>
+
 </div>
